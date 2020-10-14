@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Cinzel',serif;
+    scroll-behavior: smooth;
+}
+
+.img{width: 100%;}
+
+header{
+    height: 50px;
+    background: wheat;
+    position: sticky;
+    top: 0;
+    }
+    #navbarTogglerDemo02 a{
+        color: white;
+        }
+        #navbarTogglerDemo02 a:hover{
+            color: rgb(196, 187, 187);
+            }
+
+#sec_1{
+    background-color: rgba(255, 255, 255, 0.527);
+    height: 90vh;
+    position: relative;
+    z-index: -2;
+    }
+    #banner{
+        background: tomato;
+        height: 30vh;
+    }
+
+#sec_2{
+    background-color: rgb(230, 230, 230);
+
+    }
+
+#sec_3{
+    background-color: rgb(255, 147, 47);
+
+    }
+
+#sec_4{
+    background-color: rgb(163, 5, 18);
+
+    }
+
+
+#footer{
+    background-color: rgb(14, 197, 8);
+    height: 10vh;
+    }
+    
