@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Cinzel',serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    height: 80px;
+    background: wheat;
+    z-index: 10000;
+    }
+    #navbarTogglerDemo02 a{
+        color: white;
+        }
+        #navbarTogglerDemo02 a:hover{
+            color: rgb(196, 187, 187);
+            }
+
+#sec_1{
+    background-color: rgba(255, 255, 255, 0.527);
+    height: 95vh;
+    position: relative;
+    }
+    #banner{
+        background: tomato;
+        height: 30vh;
+        }
+
+
+#sec_2{
+    background-color: rgb(230, 230, 230);
+    height: 90vh;
+    position: relative;
+    }
+ 
+
+#sec_3{
+    background-color: white;
+    position: relative;
+    }
+
+#sec_4{
+    background-color: rgb(247, 247, 247) 236);
+    position: relative;
+    }
+
+
+#footer{
+    background-color:black;
+    height: 10vh;
+    color: white;
+    }
+    #redes{
+        background-color: tomato;
+    }
+    
