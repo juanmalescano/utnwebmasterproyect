@@ -18,32 +18,40 @@
 </head>
 <body>
     <!-- HEADER -->
-    <header class="container-fluid position-fixed">
-  
-      <div id="contenedorlog-nav" class="container row ">
+    <header class="container-fluid position-fixed ">
+      
+        <!-- contenedor de menu y logo -->
+        <div id="contenedorlog-nav" class="container p-0 pt-2">
 
-        <nav class="navbar navbar-expand-md navbar-light col-2">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-1 ">
-              <li class="nav-item ">
-                <a class="nav-link" href="#sec_1">Home<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="#sec_2">Nosotros<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="#sec_3">Destinos<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#sec_4">Contactanos</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+          <nav class="navbar navbar-expand-md navbar-light p-0">
+
+              <!-- Logo -->
+              <div class=" logo align-self-center w-30">
+                <h1><a href="/"> LOGO</a></h1>
+              </div>
+
+              <!-- menu navegacion -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="contenedorlistamenu" aria-controls="contenedorlistamenu" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse " id="contenedorlistamenu">
+              <ul class="navbar-nav ml-auto text-right">
+                <li class="nav-item ">
+                  <a class="nav-link" href="#sec_1">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#sec_2">Nosotros<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link" href="#sec_3">Destinos<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sec_4">Contactanos</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
         </div>
 
     </header>
@@ -54,7 +62,7 @@
           <!-- imagen  -->
         </div>
         <div class="container text-center mb-5">
-          <h1>Titulo</h1>
+          <h2>Titulo</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum ducimus numquam iusto sequi iste, dolorem saepe rem id quisquam, ipsa voluptatem vel iure velit deserunt aut, ipsum a. Sed, iste!
           </p>
@@ -101,8 +109,9 @@
 
     <section id="sec_3" class="container-fluid ">
 
-      <div class="container p-3 ">
+      <div class="container-fluid p-3 ">
         <div id="card1" class="row justify-content-around">
+
           <div class="card col-md-8 col-sm-6 m-1">
             <img src="..." class="card-img-top" alt="...">
             <div class="card-body">
@@ -163,9 +172,7 @@
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
-            </div>
-  
-           
+            </div>   
 
         </div> 
 
@@ -181,23 +188,18 @@
         </p>
     
       </div>
-      <div class=" col-8 mt-5 mb-5">
-        <form action="mail.to:juanma_5_11@hotmail.com" method="POST" id="form-contacto" class="row">
-                        
-          <!-- Titulo Form-->
-          <div id="titulo" class="col-12">
-              <h1>Contactanos</h1>
-          </div>
+      <div class=" col-7 m-5">
+        <form action="mail.to:juanma_5_11@hotmail.com" method="POST" id="form-contacto" class="row justify-content-between">
 
           <div class="col-6">
-                  <input type="text" required class="form-control" name="primer_nom" placeholder="Nombre"> 
+                  <input type="text" required class="form-control" name="nombre" placeholder="Nombre">
           </div>
 
           <div class="col-6">
                   <input type="text" required class="form-control" name="apellido" placeholder="Apellido">
           </div>
 
-          <div class="col-12">               
+          <div class="col-10">               
                   <input type="text" class="form-control mt-3 mb-3" required name="email" id="email" pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$" placeholder="Email" >         
           </div>	
 
@@ -205,26 +207,15 @@
                   <input type="text" class="form-control mb-3" required name="telefono" placeholder="Telefono">
           </div>  
 
-          <div class="col-6">       
+          <div class="col-12 mb-5">
               <label>
-                  <input type="date" name="fecha" id="fecha"  class="form-control mb-3">
+                  <textarea name="mensaje" id="descripcion" class="form-control" rows="4" cols="100" placeholder="..."></textarea>
               </label>
           </div>
 
-
-          <div class="col-12 mb-1">
-              <label>
-                  <textarea name="mensaje" id="descripcion" class="form-control "></textarea>
-              </label>
-          </div>
-
-          <div class="col-4 mb-3 ">
-              <input type="submit" class="form-control" id="enviar" value="Contactanos">
+          <div class="col-4 mb-3 m-auto">
+              <input type="submit" class="form-control " id="enviar" value="Contactanos">
          </div>
-
-         <div class="col-12 text-center">            
-           <p id="p">¿Ya eres miembro? <a href="index.html" id="inicio_sesion"> <strong>Inicia tu sesion</strong></a></p>
-        </div> 
 
       </form>	
     </div>

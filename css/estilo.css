@@ -24,15 +24,19 @@ header{
     height: 95vh;
     position: relative;
     }
-    #banner{
-        background: tomato;
-        height: 30vh;
-        }
+    #contenedorlistamenu{
+                        color: black;
+                        }
+                        #banner{
+                            background: tomato;
+                            height: 30vh;
+                            }
 
 
 #sec_2{
     background-color: rgb(230, 230, 230);
-    height: 90vh;
+    height: 85vh;
+    overflow: hidden;
     position: relative;
     }
  
@@ -43,8 +47,9 @@ header{
     }
 
 #sec_4{
-    background-color: rgb(247, 247, 247) 236);
+    background-color: rgb(247, 247, 247, 236);
     position: relative;
+    height: 90vh;
     }
 
 
