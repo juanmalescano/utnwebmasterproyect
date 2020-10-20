@@ -20,17 +20,23 @@ header{
             color: rgb(196, 187, 187);
             }
 
+@media screen and (max-width: 500px){
+    #sec_1{background: url('/img/fondo-chico.jpg') !important;
+    background-size: cover !important;
+    height: 70vh !important;
+    }
+}
+
 #sec_1{
-    background-color: rgba(255, 255, 255, 0.527);
+    background: url('/img/fondo.jpg');
+    background-size: cover;
+    height: 100vh;
     position: relative;
     }
     #contenedorlistamenu{
                         color: black;
                         }
-                        #banner{
-                            background: tomato;
-                            height: 30vh;
-                            }
+                  
 
 
 #sec_2{
@@ -52,11 +58,14 @@ header{
 
 
 #footer{
-    background-color:black;
-    height: 10vh;
-    color: white;
-    }
-    #redes{
-        background-color: tomato;
-    }
+        height: 10vh;
+        background-color: rgb(255, 255, 255);
+        }
+        #redes ul li{
+                list-style: none;
+                }
+                .derechos{
+                        color: white;
+                        background: black;
+                        }
     
