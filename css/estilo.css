@@ -8,14 +8,15 @@
 }
 
 header{
-    height: 80px;
-    background: wheat;
+    height: 70px;
+    background: white;
     z-index: 10000;
+    box-shadow: 0px 0px 5px 0px black;
     }
-    #navbarTogglerDemo02 a{
-        color: white;
+    #contenedorlistamenu a{
+        color: black;
         }
-        #navbarTogglerDemo02 a:hover{
+        #contenedorlistamenu a:hover{
             color: rgb(196, 187, 187);
             }
 
