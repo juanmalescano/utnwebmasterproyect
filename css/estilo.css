@@ -7,8 +7,15 @@
     scroll-behavior: smooth;
 }
 
+@media screen and (max-width: 500px){
+    #sec_1{background: url('/img/fondo-chico.jpg') !important;
+    background-size: cover !important;
+    height: 70vh !important;
+    }
+}
+
 header{
-    height: 70px;
+    height: 80px;
     background: white;
     z-index: 10000;
     box-shadow: 0px 0px 5px 0px black;
@@ -20,12 +27,7 @@ header{
             color: rgb(196, 187, 187);
             }
 
-@media screen and (max-width: 500px){
-    #sec_1{background: url('/img/fondo-chico.jpg') !important;
-    background-size: cover !important;
-    height: 70vh !important;
-    }
-}
+
 
 #sec_1{
     background: url('/img/fondo.jpg');
@@ -36,7 +38,13 @@ header{
     #contenedorlistamenu{
                         color: black;
                         }
-                  
+                        #consec_1{
+                            width: 30%;
+                            position:absolute;
+                            top: 150px;
+                            right: 150px;
+                            color: white;
+                            }
 
 
 #sec_2{
