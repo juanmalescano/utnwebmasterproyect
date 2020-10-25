@@ -55,9 +55,14 @@ header{
         right: 150px;
         color: black;
         }
+#fondo{
+    background: url('/img/fondo.jpg');
+    background-size: center;
+}
+
 
 #sec_2{
-        background-color: white;
+        background-color: transparent;
         position: relative;
         }
         #sec_2 .card{
@@ -65,7 +70,7 @@ header{
         }
 
 #sec_3{
-    background-color: rgb(230, 230, 230);
+    background-color: lightgray;
     overflow: hidden;
     position: relative;
     }
@@ -83,7 +88,7 @@ header{
                     #sec_4 textarea{
                             border: 1px solid rgb(240, 171, 51);
                             }
-                            
+
     #sec_4 input[type="submit"]{
                                 background-color: rgb(240, 171, 51);
                                  }
