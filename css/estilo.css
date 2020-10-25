@@ -30,6 +30,7 @@ header{
 #sec_1{
     height: 100vh;
     position: relative;
+    top: 50px;
     }  
     #img1_sec1{
             background: url('/img/img1_sec1.jpg');
@@ -56,9 +57,9 @@ header{
         }
 
 #sec_2{
-    background-color: white;
-    position: relative;
-    }
+        background-color: white;
+        position: relative;
+        }
 
 #sec_3{
     background-color: rgb(230, 230, 230);
