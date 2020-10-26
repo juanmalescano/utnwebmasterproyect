@@ -15,7 +15,10 @@
             #contenedor_img1-2_sec1{
                 display: none;
             }
-}
+            #mapa{
+                width: 100% !important;
+            }
+        }
 
 header{
     height: 80px;
