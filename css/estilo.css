@@ -12,6 +12,9 @@
             background-size: center !important;
             height: 70vh !important;
             }
+            #con-img2y3_sec1{
+                display: none;
+            }
 }
 
 header{
