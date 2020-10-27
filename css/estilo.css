@@ -20,6 +20,10 @@
             }
         }
 
+        @media screen and (max-width: 980px){
+            
+        }
+
 header{
     height: 80px;
     background: white;
@@ -32,7 +36,7 @@ header{
         #contenedorlistamenu a:hover{
             color: rgb(240, 171, 51);
             }
-
+      
 #sec_1{
     height: 100vh;
     position: relative;
