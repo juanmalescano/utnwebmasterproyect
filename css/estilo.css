@@ -26,6 +26,9 @@
             #mapa{
                 width: 100% !important;
             }
+            #logoimg{
+                width: 30%;
+            }
         }
 
  @media screen and (min-width: 600px){
@@ -41,7 +44,7 @@
  }
 
 header{
-    height: 80px;
+    height: 90px;
     background: white;
     z-index: 10000;
     box-shadow: 0px 0px 5px 0px black;
@@ -63,6 +66,7 @@ header{
             background: url('/img/img1_sec1.jpg');
             background-size: cover;
             background-repeat: no-repeat;
+            overflow: hidden;
             }    
             #img2_sec1{
                 background: url('/img/prod3.jpg');
@@ -83,7 +87,6 @@ header{
                         }
                         #consec_1 h2{
                             font-size: 10em;
-                            text-shadow: 0px 10px 1px 2px yellow;
                         }
 
 
@@ -93,7 +96,7 @@ header{
         position: relative;
         }
         #sec_2 .card{
-            border: 1px solid rgb(240, 171, 51);
+            border: 1px solid #f0ab33;
             }
             #sec_2 h5{
                 color: rgb(101, 29, 40);
