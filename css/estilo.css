@@ -34,8 +34,12 @@
         right: 200px !important;
         color: rgb(101, 29, 40);
         }
-
  }
+
+ .shadowtexto{
+     text-shadow: 40px -30px 5px rgb(240, 171, 51);
+ }
+
 header{
     height: 80px;
     background: white;
